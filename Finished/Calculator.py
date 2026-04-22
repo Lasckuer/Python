@@ -5,7 +5,7 @@ def get_number(prompt):
             if number.is_integer():
                 return int(number)
             return number
-        except ValidError:
+        except ValueError:
             print("Это не число, введите число!")
 
 
