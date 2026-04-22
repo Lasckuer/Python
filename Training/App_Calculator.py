@@ -1,5 +1,4 @@
 from tkinter import *
-from Logic import calculate_sum
 
 
 root = Tk()
